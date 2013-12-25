@@ -1,0 +1,84 @@
+// Normally mainpage styles
+.container 
+	padding-top: 50px
+	margin: 0 70px 
+.wrapper
+	min-height: 980px 
+	background: url("../img/background-image.png") no-repeat 0 100%, #E2E2E2
+	background-size: cover
+	+r(pda)
+		.wrapper
+			height: 100%
+		.container
+			margin: 0 15% 
+			width: 80%
+		.header__left
+			width: 100%
+		.header__logo
+			display: none
+		.header__logo_mob
+			display: block
+			img
+				width: 100%
+		.l-right
+			width: 90%
+		.content
+			float: left
+			margin-top: 60px
+			padding: 0
+		.content__info
+			font-size: 22px
+		.content__text
+			margin-top: 60px
+		.h1
+			font-size: 48px
+		.h1__bot
+			margin: 0
+	+r_440(pda_440)
+		.h1
+			font-size: 40px
+	+r_340(pda_340)
+		.h1
+			font-size: 36px
+		.content__info
+			font-size: 13px
+	+r_240(pda_240)
+		.h1
+			font-size: 28px
+.header__left
+	float: left
+	width: 50%
+.header__logo
+	display: inline-block
+	margin-bottom: 60px
+.header__logo_mob
+	display: none
+.l-right
+	float: left
+	margin-top: -10px
+	width: 50%
+.content
+	padding-left: 80px
+	font-size: 14px
+	color: #000 
+.h1
+	font-size: 36px
+	font-weight: bold
+	line-height: 1 
+	+pf
+.h1__bot
+	margin-top: 18px
+.content__info
+	font-size: 14px
+	+hl
+.content__text
+	margin-top: 35px
+	span
+		text-transform: uppercase
+.address
+	margin-top: 25px
+.mail
+	text-decoration: none
+	color: #000 
+	&:hover
+		text-decoration: underline
