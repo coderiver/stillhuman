@@ -31,8 +31,8 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; }
 .container { padding-top: 50px; margin: 0 70px; }
 
 .wrapper { min-height: 980px; background: url("../img/background-image.png") no-repeat 0 100%, #e2e2e2; background-size: cover; }
-@media only screen and (max-width: 660px) { .wrapper .wrapper { height: 100%; }
-  .wrapper .container { margin: 0 15%; width: 80%; }
+@media only screen and (max-width: 660px) { .wrapper { height: 100%; background-attachment: fixed; } }
+@media only screen and (max-width: 660px) { .wrapper .container { margin: 0 15%; width: 80%; }
   .wrapper .header__left { width: 100%; }
   .wrapper .header__logo { display: none; }
   .wrapper .header__logo_mob { display: block; }
