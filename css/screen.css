@@ -28,9 +28,10 @@ body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; }
 .l .l-col1 { float: left; width: 20%; }
 .l .l-col2 { float: right; width: 70%; }
 
+body { background: #fce416; }
+
 .container { padding-top: 50px; margin: 0 70px; }
 
-.wrapper { min-height: 980px; background: #fce416; background-size: cover; }
 @media only screen and (max-width: 660px) { .wrapper { height: 100%; } }
 @media only screen and (max-width: 660px) { .wrapper .container { margin: 0 auto; width: 70%; }
   .wrapper .header__left { width: 100%; }
